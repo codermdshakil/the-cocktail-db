@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Enjoy your life </title>
+    <!-- font awsome linked here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap file linked here  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- custom css file linked here  -->
+    <link rel="stylesheet" href="./css/task 10.css">
+</head>
+<body>
+    
+    <!-- the cocktail bd  -->
+    <h1 class="text-center py-3"> Welcome to cocktail DB </h1>
+    <h2 class="text-center py-2">You cocktail Details </h2>
+
+    <div class="container">
+        <div id="cock-details"></div>
+    </div>
+    <div class="container">
+        <div class="search-box d-block mx-auto">
+            <div class="search py-3">
+                <input id="search-text" type="text" placeholder="Search cocktail Name first letter">
+                <button onclick="loadData()" class="search-icon" ><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div id="show-dataContainer"></div>
+    </div>
+
+   <!-- the cocktail bd end here  -->
+
+    <!-- bootstrap bundle js file linked here  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- js file linkd here  -->
+    <script src="./js/task 10.js"></script>
+</body>
+</html>
